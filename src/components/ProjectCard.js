@@ -6,7 +6,7 @@ const ProjectCard = ({name, description, repoLink, deployedLink, techStack}) => 
   return (
     <Card
       style={{ width: "18rem" }}
-      className="text-center d-flex justify-content-center"
+      className="projectCard text-center d-flex justify-content-center"
     >
       <Card.Header>{name}</Card.Header>
       <Card.Img variant="top" src="https://picsum.photos/200" />

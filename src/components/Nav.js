@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const nav = () => {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar sticky="top" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand>Adel Hasan</Navbar.Brand>
           <Nav className="me-auto">
@@ -14,6 +14,9 @@ const nav = () => {
             </Link>
             <Link to="/projects" className="head-link">
               <Nav.Link href="#projects">Projects</Nav.Link>
+            </Link>
+            <Link to="/resume" className="head-link">
+              <Nav.Link href="#resume">Resume</Nav.Link>
             </Link>
           </Nav>
         </Container>

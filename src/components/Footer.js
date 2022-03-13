@@ -17,6 +17,14 @@ const Footer = () => {
               <i className="fa-brands fa-linkedin fa-2xl fa-align-center"></i>
             </a>
           </Col>
+          <Col>
+            <a href="mailto:a.hasan0495@gmail.com@gmail.com?subject=Mail from our Website">
+              <i
+                className="fa-solid fa-envelope fa-2xl fa-align-center"
+                
+              ></i>
+            </a>
+          </Col>
         </Row>
       </Container>
     </Navbar>
