@@ -6,23 +6,38 @@ const About = () => {
     <div className="about">
       <Row>
         <Col md className="d-flex justify-content-center">
-        <Card
-      style={{ width: "18rem" }}
-      className="text-center d-flex justify-content-center"
-    >
-      <Card.Header>Adel Hasan</Card.Header>
-      <Card.Img variant="top" src="https://picsum.photos/500" />
-      <Card.Body>
-        <Card.Title className="mb-2 text-muted">Full-Stack Developer</Card.Title>
-        <Card.Text>About me</Card.Text>
-        <Card.Link href="#"><a href="https://github.com/adelhasan" target="_blank">
-          <i className="fa-brands fa-github fa-2xl fa-align-center" id="aboutGH"></i>
-        </a></Card.Link>
-        <Card.Link href="#"><a href="https://www.linkedin.com/in/adelhasan/" target="_blank">
-          <i className="fa-brands fa-linkedin fa-2xl fa-align-center" id="aboutLI"></i>
-        </a></Card.Link>
-      </Card.Body>
-    </Card>
+          <Card
+            style={{ width: "18rem" }}
+            className="text-center d-flex justify-content-center"
+          >
+            <Card.Header>Adel Hasan</Card.Header>
+            <Card.Img variant="top" src="https://picsum.photos/500" />
+            <Card.Body>
+              <Card.Title className="mb-2 text-muted">
+                Full-Stack Developer
+              </Card.Title>
+              <Card.Text>About me</Card.Text>
+              <Card.Link href="#">
+                <a href="https://github.com/adelhasan" target="_blank">
+                  <i
+                    className="fa-brands fa-github fa-2xl fa-align-center"
+                    id="aboutGH"
+                  ></i>
+                </a>
+              </Card.Link>
+              <Card.Link href="#">
+                <a
+                  href="https://www.linkedin.com/in/adelhasan/"
+                  target="_blank"
+                >
+                  <i
+                    className="fa-brands fa-linkedin fa-2xl fa-align-center"
+                    id="aboutLI"
+                  ></i>
+                </a>
+              </Card.Link>
+            </Card.Body>
+          </Card>
         </Col>
         <Col md text-center>
           <h3>Current Role</h3>
@@ -48,6 +63,7 @@ const About = () => {
           </p>
         </Col>
       </Row>
+      
     </div>
   );
 };
