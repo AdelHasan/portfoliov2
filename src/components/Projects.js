@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 import { Col, Row } from "react-bootstrap";
 // *---------------------------*
 
-// *------ P R O J E C T S  I N F O ------*
+// *------ P R O J E C T S  D A T A ------*
 const project1 = {
   name: 'Portfolio',
   description: 'A portfolio site',
@@ -33,7 +33,7 @@ const Projects = () => {
   return (
     <div>
       <Row>
-        <Col>
+        <Col md className="d-flex justify-content-center">
           <ProjectCard
             name={project1.name}
             description={project1.description}
@@ -42,7 +42,7 @@ const Projects = () => {
             techStack={project1.techStack} 
           />
         </Col>
-        <Col>
+        <Col md className="d-flex justify-content-center">
         <ProjectCard
             name={project2.name}
             description={project2.description}
@@ -51,7 +51,7 @@ const Projects = () => {
             techStack={project2.techStack} 
           />
         </Col>
-        <Col>
+        <Col md className="d-flex justify-content-center">
         <ProjectCard
             name={project3.name}
             description={project3.description}

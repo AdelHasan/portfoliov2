@@ -7,7 +7,7 @@ const nav = () => {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#about"><Link to="/" className="head-link" id="brand">Adel Hasan</Link></Navbar.Brand>
+          <Navbar.Brand>Adel Hasan</Navbar.Brand>
           <Nav className="me-auto">
             <Link to="/" className="head-link">
               <Nav.Link  href="#about" >About</Nav.Link>
