@@ -24,6 +24,10 @@ code {
   color: whitesmoke
 }
 
+/* #navbar {
+  font-family: 'Playfair Display', serif;
+} */
+
 #brand:hover {
   color: green;
 }

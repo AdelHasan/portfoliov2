@@ -1,5 +1,5 @@
 // *------ I M P O R T S ------*
-import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
+import { Container, Row, Col, Navbar } from "react-bootstrap";
 
 // *------ F O O T E R ------*
 const Footer = () => {
