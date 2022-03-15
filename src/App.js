@@ -15,9 +15,9 @@ function App() {
       <Nav />
       <Container className="main">
         <Routes>
-          <Route path="/portfoliov2" element={<About />} />
-          <Route path="/portfoliov2/projects" element={<Projects />} />
-          <Route path="/portfoliov2/resume" element={<Resume />} />
+          <Route path="/" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </Container>
       <Footer />
