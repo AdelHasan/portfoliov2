@@ -9,13 +9,13 @@ const nav = () => {
         <Container>
           <Navbar.Brand>Adel Hasan</Navbar.Brand>
           <Nav className="me-auto">
-            <Link to="/" className="head-link">
+            <Link to="/portfoliov2" className="head-link">
               <Nav.Link  href="#about" >About</Nav.Link>
             </Link>
-            <Link to="/projects" className="head-link">
+            <Link to="/portfoliov2/projects" className="head-link">
               <Nav.Link href="#projects">Projects</Nav.Link>
             </Link>
-            <Link to="/resume" className="head-link">
+            <Link to="/portfoliov2/resume" className="head-link">
               <Nav.Link href="#resume">Resume</Nav.Link>
             </Link>
           </Nav>
