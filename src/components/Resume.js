@@ -5,12 +5,11 @@ import { Row, Col, Card } from "react-bootstrap";
 const Resume = () => {
   return (
     <Card>
-    <Row>
-      <iframe src="https://drive.google.com/file/d/111kpFVPBEtph__uEhUYXz3CAbjT16L5t/preview" width="640" height="600" allow="autoplay"/>
-      
-    </Row>
+      <Row>
+      <iframe src="https://drive.google.com/file/d/1K-x_LUG-lhvD_oNEk9MPV6-m0hIuwgJy/preview" width="640" height="480" allow="autoplay"></iframe>
+      </Row>
     </Card>
-  )
-}
+  );
+};
 
-export default Resume
+export default Resume;
