@@ -13,7 +13,7 @@ const About = () => {
               id="profileCard"
             >
               <Card.Header>About Me</Card.Header>
-              <Card.Img variant="top" src="https://i.imgur.com/rsAnbL3.jpeg" />
+              <Card.Img variant="top" src="https://i.imgur.com/XLHoJFp.jpg" />
               <Card.Body>
                 <Card.Title className="mb-2 text-muted">
                   Full Stack Developer
