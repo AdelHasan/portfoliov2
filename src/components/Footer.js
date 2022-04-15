@@ -7,6 +7,7 @@ const Footer = () => {
     <Navbar bg="dark" variant="dark" className="footer-container">
       <Container className="justify-content-center">
         <Row>
+          
           <Col>
             <a href="https://github.com/adelhasan" target="_blank">
               <i className="fa-brands fa-github fa-2xl fa-align-center"></i>

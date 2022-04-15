@@ -1,15 +1,19 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  background-color: beige;
 }
 
 .footer {
@@ -17,11 +21,10 @@ code {
   position: relative;
   left: 0;
   bottom: 0;
-
 }
 .head-link {
   text-decoration: none;
-  color: whitesmoke
+  color: whitesmoke;
 }
 
 /* #navbar {
@@ -32,14 +35,15 @@ code {
   color: green;
 }
 
-
-
-a .fa-brands, .fa-solid {
+a .fa-brands,
+.fa-solid {
   color: whitesmoke;
 }
 
-#aboutGH, #aboutLI, #aboutMail {
-  color:#212529
+#aboutGH,
+#aboutLI,
+#aboutMail {
+  color: #212529;
 }
 
 .main {
@@ -62,7 +66,7 @@ a .fa-brands, .fa-solid {
 }
 
 #projectsContainer {
-  padding-top: 24px; 
+  padding-top: 24px;
   padding-bottom: 24px;
   margin-bottom: 24px;
 }
@@ -70,3 +74,11 @@ a .fa-brands, .fa-solid {
 .projectCard {
   margin-bottom: 24px;
 }
+
+.card-header button {
+  justify-self: flex-end;
+}
+
+/* * {
+  color: white;
+} */
